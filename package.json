@@ -1,0 +1,26 @@
+{
+  "name": "@dragons3232/ts-node-pack",
+  "version": "1.0.0",
+  "description": "A simple ts node package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dragons3232/ts-node-pack.git"
+  },
+  "keywords": [
+    "typescript",
+    "ts",
+    "javascript",
+    "js",
+    "node"
+  ],
+  "author": "LongPhan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dragons3232/ts-node-pack/issues"
+  },
+  "homepage": "https://github.com/dragons3232/ts-node-pack#readme"
+}
