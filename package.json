@@ -2,7 +2,12 @@
   "name": "@dragons3232/ts-node-pack",
   "version": "1.0.0",
   "description": "A simple ts node package",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "!.DS_Store"
+  ],
   "scripts": {
     "build": "rm -rf lib && tsc -p .",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
