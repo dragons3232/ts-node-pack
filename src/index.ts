@@ -1,5 +1,11 @@
+import { MD5 } from 'crypto-js'
+
 const welcome = (name: string) => (
   `Welcome ${name}`
 )
 
-export { welcome };
+const hashMe = (input: string) => (
+  MD5(input + 'secret')
+)
+
+export { welcome, hashMe };

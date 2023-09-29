@@ -29,5 +29,9 @@
   "bugs": {
     "url": "https://github.com/dragons3232/ts-node-pack/issues"
   },
-  "homepage": "https://github.com/dragons3232/ts-node-pack"
+  "homepage": "https://github.com/dragons3232/ts-node-pack",
+  "devDependencies": {
+    "@types/crypto-js": "^4.1.2",
+    "crypto-js": "^4.1.1"
+  }
 }
